@@ -13,6 +13,7 @@ try:
     input1 = browser.find_element(By.XPATH, "//input[@name='firstname']").send_keys("Ivan")
     input2 = browser.find_element(By.XPATH, "//input[@name='lastname']").send_keys("Petrov")
     input3 = browser.find_element(By.XPATH, "//input[@name='email']").send_keys("email.com")
+    time.sleep(10)
 
 
     current_dir = os.path.abspath(os.path.dirname(__file__))
